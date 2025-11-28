@@ -11,9 +11,9 @@ class Average {
     }
 
     public function media(){
-        $primero=$this->num1;
-        $segundo=$this->num2;
-        $tercero=$this->num3;
+        $primero = $this->num1;
+        $segundo = $this->num2;
+        $tercero = $this->num3;
         $media = ($primero + $segundo + $tercero) / 3;
         return $media;
     }
