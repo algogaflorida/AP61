@@ -58,10 +58,9 @@ $mat = new Matrix(3, 4);
 
 $mat->rellenar(0);            
 
-$mat->setRelleno(1, 2, "Pepe");  
+$mat->setRelleno(1, 2, "Pepe");
 
 echo "Filas: " . $mat->getFilas() . "<br>";
 echo "Columnas: " . $mat->getColumnas() . "<br><br>";
 
 $mat->tabla();
-    
