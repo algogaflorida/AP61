@@ -4,7 +4,7 @@ class Triangle {
     private $isosceles;
     private $escaleno;
 
-    function __construct($equi, $isos, $esca){
+     public function __construct($equi, $isos, $esca){
         $this->equilatero=$equi;
         $this->isosceles=$isos;
         $this->escaleno=$esca;

@@ -4,7 +4,7 @@ class Average {
     private $num2;
     private $num3;
 
-    function __construct($n1, $n2, $n3){
+    public function __construct($n1, $n2, $n3){
         $this->num1=$n1;
         $this->num2=$n2;
         $this->num3=$n3;
